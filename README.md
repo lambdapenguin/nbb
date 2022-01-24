@@ -69,7 +69,7 @@ Create a script which uses the NPM libraries:
 
 ``` clojure
 (ns script
-  (:require ["csv-parse/lib/sync$default" :as csv-parse]
+  (:require ["csv-parse/sync$default" :as csv]
             ["fs" :as fs]
             ["path" :as path]
             ["shelljs$default" :as sh]
@@ -86,7 +86,7 @@ Create a script which uses the NPM libraries:
 
 (prn (sh/ls "."))
 
-(prn (csv-parse "foo,bar"))
+(prn (csv/parse "foo,bar"))
 
 (prn (zxfs/existsSync *file*))
 
@@ -486,6 +486,8 @@ to convert an nbb script or project to
 ## Publishing an nbb project to npm
 
 See [Publishing an nbb project to npm](doc/publish/README.md)
+
+## [Develop](doc/dev.md)
 
 ## Build
 
