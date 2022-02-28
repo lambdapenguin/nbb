@@ -4,9 +4,10 @@ Not [babashka](https://babashka.org/). Node.js babashka!?
 
 Ad-hoc CLJS scripting on Node.js.
 
-## Status
+## Try it out
 
-Experimental. Please report issues [here](https://github.com/borkdude/nbb/issues).
+Run `npx nbb` to run nbb on your own machine, or try it in a browser on
+[Replit](https://replit.com/@eccentric-j/Node-Babashka-With-Redefs-Examples#src/cli/core.cljs)!
 
 ## Goals and features
 
@@ -456,6 +457,7 @@ The following projects are using nbb or are supporting it as a development platf
 - [sitefox](https://github.com/chr15m/sitefox): Node.js + CLJS backend web framework.
 - [unminify](https://github.com/xfthhxk/unminify): unminifies JS stacktrace errors.
 - [nbb-serverless-example](https://github.com/vharmain/nbb-serverless-example): AWS serverless example using nbb
+- [clojure-quiz](https://github.com/prestancedesign/clojure-quiz): ClojureScript fancy terminal game
 
 ## Examples
 
@@ -470,11 +472,12 @@ See [API](doc/api.md) documentation.
 
 ## Articles
 
+- [Serverless site analytics with Clojure nbb and AWS](https://www.loop-code-recur.io/simple-site-analytics-with-serverless-clojure)
+- [Creating an AWS Lambda function with
+  nbb](https://blog.michielborkent.nl/aws-lambda-nbb.html) by Michiel Borkent
 - [Prerendering React in ClojureScript
   land](https://www.arthurbrrs.me/prerendering-react-clojurescript-land.html) by
   Arthur Barroso
-- [Creating an AWS Lambda function with
-  nbb](https://blog.michielborkent.nl/aws-lambda-nbb.html) by Michiel Borkent
 
 ## Migrating to shadow-cljs
 
@@ -486,6 +489,10 @@ to convert an nbb script or project to
 ## Publishing an nbb project to npm
 
 See [Publishing an nbb project to npm](doc/publish/README.md)
+
+## Creating a standalone executable with caxa
+
+See [Creating a standalone executable with caxa](doc/caxa/README.md)
 
 ## [Develop](doc/dev.md)
 

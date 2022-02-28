@@ -2,6 +2,49 @@
 
 For a list of breaking changes, check [here](#breaking-changes).
 
+## 0.2.0
+
+- Bump promesa for built-in clj-kondo config and `with-redefs` macro ([@niwinz](https://github.com/niwinz))
+- Include new `with-redefs` macro ([@eccentric-j](https://github.com/eccentric-j))
+
+## 0.1.9
+
+- Fix [#135](https://github.com/babashka/nbb/issues/135): expose `promesa/run!`
+- Fix [#131](https://github.com/babashka/nbb/issues/131): delayed printing in nREPL
+
+## 0.1.8
+
+- Fix bug: allow arbitrary expression in class position in `new` (part 2)
+
+## 0.1.7
+
+- Fix bug: allow arbitrary expression in class position in `new`
+- Bump SCI
+- Bump promesa for built-in clj-kondo config
+
+## 0.1.6
+
+- Show nbb version at REPL startup ([@prestancedesign](https://github.com/prestancedesign))
+- Bump promesa with new `->` and `->>` macros ([@prestancedesign](https://github.com/prestancedesign))
+- Bump SCI with performance improvements (4x) for loops
+
+## 0.1.5
+
+- Fix: use `Reflect.construct` to fix interop with Graal Node.js
+
+## 0.1.4
+
+- Fix [#118](https://github.com/babashka/nbb/issues/118): Use `Reflect.apply` to fix interop with Graal Node.js
+
+## 0.1.3
+
+- Support `:as-alias`
+
+## 0.1.2
+
+- Bump SCI and cljs-bean
+- CIDER improvements ([@benjamin-asdf](https://github.com/benjamin-asdf))
+
 ## 0.1.1
 
 - Fix [#115](https://github.com/babashka/nbb/issues/115): Missing `cljs.core` functions: `array?`, `object?`, `js-delete`, `undefined?`
